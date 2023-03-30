@@ -1,0 +1,24 @@
+Beschreibung:
+Ich habe hier einen GPS Geschwindigkeitsmesser gebaut.
+
+Das Herzstück ist ein Arduino Nano den ich auf einen Arduino Nano Shield aufgesteckt habe.
+Bei den Einstellungen muss man darauf achten, ob der Arduino Nano einen neuen oder einen alten Bootloader hat.
+
+Als GPS Empfänger habe ich einen NEO 6M genommen.
+	VCC 	-> 	+3,3V!!!
+	GND	->	GND
+	TX	->	D5
+
+Für die Anzeige habe ich mich für eine 7 Segmentanzeige 0,36 inch mit TM1637 Chip entschieden.
+Beim TM1637 kann man die Displayhelligkeit im Code (brightness) im Bereich von 0-7 bestimmen.
+Auf eine Automatische Helligkeitsanpassung habe ich erstmal Verzichtet.
+	5V	->	5V
+	GND	->	GND
+	DIO	->	D3
+	CLK	->	D2
+
+Das ganze habe ich in ein Gehäuse eingebaut das mit einem 3D Drucker angefertigt werden kann.
+
+Wer möchte kann den GPS Geschwindigkeitsmesser gerne nachbauen.
+
+Viel Spaß
