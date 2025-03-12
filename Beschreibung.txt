@@ -1,6 +1,19 @@
 Beschreibung:
 Ich habe hier einen GPS Geschwindigkeitsmesser gebaut.
 
+Benötigtes Material:
+
+- Arduino Nano				Processor
+- Arduino Nano Terminal Adapter		Zur Befestigung
+- NEO 6N				GPS Empfänger
+- TM1637 4 DIGIT			LED Anzeige
+
+- Gehäuse	Ist als SDL Datei zum Drucken dabei
+- Schrauben für das Terminal	2x 2,2x4,5mm
+- Schrauben für das GPS Modul 	2x 2,2x4,5mm
+- Schrauben für den Deckel	4x 2,2x6mm
+
+
 Das Herzstück ist ein Arduino Nano den ich auf einen Arduino Nano Shield aufgesteckt habe.
 Bei den Einstellungen muss man darauf achten, ob der Arduino Nano einen neuen oder einen alten Bootloader hat.
 
